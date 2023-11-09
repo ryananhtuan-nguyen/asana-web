@@ -1,5 +1,12 @@
+import Logo from './Navbar/_components/logo'
+import Navbar from './Navbar/navbar'
+
 const LandingPage = () => {
-  return <div>LandingPage</div>
+  return (
+    <div>
+      <Navbar />
+    </div>
+  )
 }
 
 export default LandingPage
